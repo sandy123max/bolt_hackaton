@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symptom Checker</title>
+  <link rel="stylesheet" href="sty4.css">
+  <script src="doc.js"></script> 
+</head>
+<body>
+  <h1>Symptom Checker</h1>
+
+  <form id="symptom-form">
+    <h2>Please select your symptoms:</h2>
+    <label><input type="checkbox" name="symptom" value="Headache"> Headache</label><br>
+    <label><input type="checkbox" name="symptom" value="Fever"> Fever</label><br>
+    <label><input type="checkbox" name="symptom" value="Cough"> Cough</label><br>
+    <label><input type="checkbox" name="symptom" value="Fatigue"> Fatigue</label><br>
+    <label><input type="checkbox" name="symptom" value="Muscle aches"> Muscle aches</label><br>
+    <label><input type="checkbox" name="symptom" value="Shortness of breath"> Shortness of breath</label><br>
+
+    <button type="button" onclick="checkSymptoms()">Check Symptoms</button>
+  </form>
+
+  <div id="diagnosis-result"></div>
+
+  <script src="sysanalysis.js"></script>
+</body>
+</html>
+
+
+
+
